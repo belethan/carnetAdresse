@@ -7,7 +7,7 @@
 class ContactManager
 {
     // On crée une propriété privée qui contient l'instance de PDO
-    private $db;
+    private PDO $db;
 
     /**
      * Le constructeur de la classe. Il permet d'initialiser la propriété $db
